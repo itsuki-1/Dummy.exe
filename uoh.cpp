@@ -76,11 +76,11 @@ int main()
     char cvc[5] = "\0";
     char date[11] = "\0";
 
-    bool cardNumberActive = false;
-    bool cvcActive = false;
-    bool dateActive = false;
-    bool buttonActive = false;
-    bool dataSaved = false;
+    bool cardNumberActive{ false };
+    bool cvcActive{ false };
+    bool dateActive{ false };
+    bool buttonActive{ false };
+    bool dataSaved{ false };
 
     Rectangle cardNumberRec = { 547, 180, 400, 40 };
     Rectangle cvcRec = { 547, 245, 400, 40 };
